@@ -3,7 +3,7 @@ import { ExternalLink, GitFork } from "lucide-react";
 const projects = [
   {
     title: 'ERP Empresarial',
-    image: '/portfolio/images/erp.png',
+    image: `${import.meta.env.BASE_URL}images/erp.png`,
     desc: 'Desarrollo y mantenimiento de un sistema ERP para la gestión de ventas, clientes, inventarios, almacenes y procesos administrativos. Participé en frontend, backend, base de datos, APIs, generación de tickets y documentos PDF.',
     stack: ['PHP', 'JavaScript', 'MySQL', 'MVC', 'Git'],
     demo: null,
@@ -13,7 +13,7 @@ const projects = [
 
   {
     title: 'Liceo Michoacano',
-    image: 'image: `${import.meta.env.BASE_URL}images/liceo.png`',
+    image: `${import.meta.env.BASE_URL}images/liceo.png`,
     desc: 'Administración y mejora de plataformas digitales enfocadas en procesos de inscripción, captación y seguimiento de estudiantes.',
     stack: ['WordPress', 'CRM', 'HTML', 'CSS'],
     demo: 'https://www.liceomichoacano.edu.mx/',
@@ -22,7 +22,7 @@ const projects = [
 
   {
     title: 'LIQ',
-    image: '/portfolio/images/liq.png',
+    image: `${import.meta.env.BASE_URL}images/liq.png`,
     desc: 'Desarrollo y mantenimiento de sitio corporativo, optimización de contenido y mejoras funcionales.',
     stack: ['WordPress', 'PHP', 'CSS'],
     demo: 'https://liq.com.mx/',
@@ -31,7 +31,7 @@ const projects = [
 
   {
     title: 'Cumbre Clima',
-    image: '/portfolio/images/cumbreclima.png',
+    image: `${import.meta.env.BASE_URL}images/cumbreclima.png`,
     desc: 'Participación en la implementación y mantenimiento de sitio web institucional.',
     stack: ['WordPress', 'JavaScript', 'CSS'],
     demo: 'https://cumbreclima.com.mx/',
@@ -40,7 +40,7 @@ const projects = [
 
   {
     title: 'Conservatorio de las Rosas',
-    image: '/portfolio/images/conservatorio.png',
+    image: `${import.meta.env.BASE_URL}images/conservatorio.png`,
     desc: 'Mantenimiento y actualización de plataformas web institucionales.',
     stack: ['WordPress', 'HTML', 'CSS', 'JavaScript'],
     demo: 'https://www.conservatoriodelasrosas.edu.mx/Web/',
@@ -49,7 +49,7 @@ const projects = [
 
   {
     title: 'Portafolio Personal',
-    image: '/portfolio/images/portafolio.png',
+    image: `${import.meta.env.BASE_URL}images/portafolio.png`,
     desc: 'Portafolio desarrollado con React para mostrar experiencia profesional, proyectos y tecnologías.',
     stack: ['React', 'JavaScript', 'Tailwind'],
     demo: '#',

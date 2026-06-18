@@ -13,7 +13,7 @@ const projects = [
 
   {
     title: 'Liceo Michoacano',
-    image: '/portfolio/images/liceo.png',
+    image: 'image: `${import.meta.env.BASE_URL}images/liceo.png`',
     desc: 'Administración y mejora de plataformas digitales enfocadas en procesos de inscripción, captación y seguimiento de estudiantes.',
     stack: ['WordPress', 'CRM', 'HTML', 'CSS'],
     demo: 'https://www.liceomichoacano.edu.mx/',

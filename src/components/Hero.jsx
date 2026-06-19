@@ -88,8 +88,7 @@ export default function Hero() {
               href={`${import.meta.env.BASE_URL}CV_Brenda_Guzman_FullStack.pdf`}
               target="_blank"
               rel="noreferrer"
-              className="border border-border hover:border-accent text-text font-display font-semibold px-6 py-3 rounded-lg transition-colors"
-            >
+              className="border border-border hover:border-accent text-text font-display font-semibold px-6 py-3 rounded-lg transition-colors">
               Descargar CV
             </a>
             <a href="#contacto"

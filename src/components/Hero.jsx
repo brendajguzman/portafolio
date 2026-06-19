@@ -84,8 +84,13 @@ export default function Hero() {
             <a href="#proyectos" className="bg-primary hover:bg-primary/80 text-white font-display font-semibold px-6 py-3 rounded-lg transition-colors">
               Ver proyectos
             </a>
-            <a href="/cv-brenda-guzman.pdf" target="_blank" className="border border-border hover:border-accent text-text font-display font-semibold px-6 py-3 rounded-lg transition-colors">
-            Descargar CV
+            <a
+              href={`${import.meta.env.BASE_URL}CV_Brenda_Guzman_FullStack.pdf`}
+              target="_blank"
+              rel="noreferrer"
+              className="border border-border hover:border-accent text-text font-display font-semibold px-6 py-3 rounded-lg transition-colors"
+            >
+              Descargar CV
             </a>
             <a href="#contacto"
               className="border border-border hover:border-accent text-text font-display font-semibold px-6 py-3 rounded-lg transition-colors">

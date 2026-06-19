@@ -55,6 +55,14 @@ const projects = [
     demo: '#',
     github: 'https://github.com/brendajguzman',
   },
+  {
+  title: 'Sitio Web Corporativo - Conti Papelerías',
+  image: `${import.meta.env.BASE_URL}images/conti.png`,
+  desc: 'Participación en el desarrollo y mantenimiento del sitio web corporativo de Conti Papelerías, colaborando en la implementación de interfaces y funcionalidades con PHP, HTML, CSS y JavaScript.',
+  stack: ['PHP', 'HTML', 'CSS', 'JavaScript'],
+  demo: 'https://contipapelerias.com.mx/',
+  github: null,
+}
 ]
 export default function Projects() {
   return (

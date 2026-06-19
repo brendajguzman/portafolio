@@ -2,9 +2,9 @@ import { ExternalLink, GitFork } from "lucide-react";
 
 const projects = [
   {
-    title: 'ERP Empresarial',
+    title: 'ERP Empresarial Multiempresas',
     image: `${import.meta.env.BASE_URL}images/erp.png`,
-    desc: 'Desarrollo y mantenimiento de un sistema ERP para la gestión de ventas, clientes, inventarios, almacenes y procesos administrativos. Participé en frontend, backend, base de datos, APIs, generación de tickets y documentos PDF.',
+    desc: 'Desarrollo y mantenimiento de un sistema ERP empresarial utilizado por distintas áreas de la organización. Participé en el análisis de requerimientos, diseño e implementación de módulos para ventas, clientes, inventarios, almacenes y procesos administrativos. Colaboré en el desarrollo de interfaces, lógica de negocio, consultas SQL, APIs internas, generación de tickets y documentos PDF, así como en la optimización de procesos y herramientas para mejorar la operación diaria de los usuarios.',
     stack: ['PHP', 'JavaScript', 'MySQL', 'MVC', 'Git'],
     demo: null,
     github: null,
@@ -14,16 +14,16 @@ const projects = [
   {
     title: 'Liceo Michoacano',
     image: `${import.meta.env.BASE_URL}images/liceo.png`,
-    desc: 'Administración y mejora de plataformas digitales enfocadas en procesos de inscripción, captación y seguimiento de estudiantes.',
+    desc: 'Administración y mejora de plataformas digitales enfocadas en procesos de inscripción, captación y seguimiento de prospectos.',
     stack: ['WordPress', 'CRM', 'HTML', 'CSS'],
     demo: 'https://www.liceomichoacano.edu.mx/',
     github: null,
   },
 
   {
-    title: 'LIQ',
+    title: 'LIQ Cursos',
     image: `${import.meta.env.BASE_URL}images/liq.png`,
-    desc: 'Desarrollo y mantenimiento de sitio corporativo, optimización de contenido y mejoras funcionales.',
+    desc: 'Desarrollo y mantenimiento de sitio corporativo, optimización de contenido y mejoras funcionales de diferentes cursos.',
     stack: ['WordPress', 'PHP', 'CSS'],
     demo: 'https://liq.com.mx/',
     github: null,
@@ -46,8 +46,15 @@ const projects = [
     demo: 'https://www.conservatoriodelasrosas.edu.mx/Web/',
     github: null,
   },
-
   {
+  title: 'Sitio Web Corporativo - Coorporativo Jacc',
+  image: `${import.meta.env.BASE_URL}images/conti.png`,
+  desc: 'Participación en el desarrollo y mantenimiento del sitio web corporativo de Conti Papelerías, colaborando en la implementación de interfaces y funcionalidades con PHP, HTML, CSS y JavaScript.',
+  stack: ['PHP', 'HTML', 'CSS', 'JavaScript'],
+  demo: 'https://contipapelerias.com.mx/',
+  github: null,
+},
+ {
     title: 'Portafolio Personal',
     image: `${import.meta.env.BASE_URL}images/portafolio.png`,
     desc: 'Portafolio desarrollado con React para mostrar experiencia profesional, proyectos y tecnologías.',
@@ -55,14 +62,6 @@ const projects = [
     demo: '#',
     github: 'https://github.com/brendajguzman',
   },
-  {
-  title: 'Sitio Web Corporativo - Conti Papelerías',
-  image: `${import.meta.env.BASE_URL}images/conti.png`,
-  desc: 'Participación en el desarrollo y mantenimiento del sitio web corporativo de Conti Papelerías, colaborando en la implementación de interfaces y funcionalidades con PHP, HTML, CSS y JavaScript.',
-  stack: ['PHP', 'HTML', 'CSS', 'JavaScript'],
-  demo: 'https://contipapelerias.com.mx/',
-  github: null,
-}
 ]
 export default function Projects() {
   return (

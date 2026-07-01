@@ -1,7 +1,7 @@
 const jobs = [
   {
     title: 'Full Stack Developer',
-    company: 'Corporativo Jacc | Producciones Conti',
+    company: 'Corporativo Jacc',
     period: 'Feb 2024 — Jun 2026',
     highlights: [
       'Desarrollo de un sistema ERP empresarial desde cero multiempresas.',

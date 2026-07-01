@@ -64,7 +64,7 @@ export default function Hero() {
            Desarrolladora Web Full Stack con experiencia en aplicaciones empresariales y 
            desarrollo de sitios web. Ingeniera en Tecnologías de la Información y Comunicaciones
             con especialidad en Arquitectura Web. Experiencia en PHP, JavaScript (ES6), MySQL, WordPress, React e integración de APIs.
-             Interesada en el desarrollo de interfaces, experiencia de usuario y tecnologías web modernas.
+            Interesada en el desarrollo de interfaces, experiencia de usuario y tecnologías web modernas.
           </p>
           <div className="flex flex-wrap gap-2 mb-10">
             {[

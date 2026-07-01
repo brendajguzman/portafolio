@@ -61,9 +61,10 @@ export default function Hero() {
             </span>
           </h1>
           <p className="text-muted text-lg max-w-xl leading-relaxed mb-10">
-            Desarrolladora Full Stack con experiencia en la creación de sistemas ERP, módulos administrativos 
-            y soluciones web empresariales. He trabajado en el desarrollo de interfaces, APIs, 
-            bases de datos y procesos orientados a mejorar la operación diaria de diferentes áreas de negocio.
+           Desarrolladora Web Full Stack con experiencia en aplicaciones empresariales y 
+           desarrollo de sitios web. Ingeniera en Tecnologías de la Información y Comunicaciones
+            con especialidad en Arquitectura Web. Experiencia en PHP, JavaScript (ES6), MySQL, WordPress, React e integración de APIs.
+             Interesada en el desarrollo de interfaces, experiencia de usuario y tecnologías web modernas.
           </p>
           <div className="flex flex-wrap gap-2 mb-10">
             {[

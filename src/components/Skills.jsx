@@ -3,40 +3,76 @@ const groups = [
     label: 'Backend',
     skills: [
       'PHP',
-      'MySQL',
-      'SQL',
-      'MVC',
+      'Laravel',
+      'Java',
+      'Spring Boot',
+      'C#',
+      '.NET',
+      'Python',
+      'Node.js',
+      'Express.js',
       'REST APIs',
-      'Procedimientos Almacenados',
-      'Composer',
-      'Generación de PDFs'
+      'JSON',
     ],
   },
   {
     label: 'Frontend',
     skills: [
-      'JavaScript',
       'HTML5',
       'CSS3',
-      'Bootstrap',
-      'jQuery',
+      'JavaScript (ES6+)',
+      'TypeScript',
       'React',
-      'Diseño de Interfaces'
+      'Bootstrap',
+      'Tailwind CSS',
+      'jQuery',
+      'Responsive Design',
+      'Semantic HTML',
     ],
   },
   {
-    label: 'Herramientas y Metodologías',
+    label: 'Bases de Datos',
+    skills: [
+      'MySQL',
+      'PostgreSQL',
+      'SQL Server',
+      'SQLite',
+      'MongoDB',
+      'MariaDB',
+    ],
+  },
+  {
+    label: 'Control de Versiones',
     skills: [
       'Git',
       'GitHub',
-      'VS Code',
-      'Postman',
-      'WordPress',
-      'Scrum',
-      'Arquitectura Web'
+      'GitLab',
     ],
   },
-]
+  {
+    label: 'Herramientas',
+    skills: [
+      'VS Code',
+      'Postman',
+      'Docker',
+      'WordPress',
+      'Figma',
+      'Jira',
+      'Azure DevOps',
+    ],
+  },
+  {
+    label: 'Metodologías',
+    skills: [
+      'Scrum',
+      'Kanban',
+      'MVC',
+      'Arquitectura Web',
+      'POO',
+      'REST',
+    ],
+  },
+];
 
 export default function Skills() {
   return (

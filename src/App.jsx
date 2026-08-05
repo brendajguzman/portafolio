@@ -11,9 +11,9 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
-        <Experience />
-        <Projects />
         <Skills />
+        <Projects />
+        <Experience />
         <Contact />
       </main>
       <footer className="border-t border-border py-6 text-center text-muted text-xs font-mono">

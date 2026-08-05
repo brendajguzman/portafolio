@@ -9,13 +9,13 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <main>
-        <Hero />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Contact />
-      </main>
+     <main>
+  <Hero />
+  <Experience />
+  <Skills />
+  <Projects />
+  <Contact />
+</main>
       <footer className="border-t border-border py-6 text-center text-muted text-xs font-mono">
         © {new Date().getFullYear()} Jazmin — Construido con React + Vite
       </footer>

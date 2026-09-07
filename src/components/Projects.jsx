@@ -23,6 +23,43 @@ const projects = [
   featured: true,
 },
 
+{
+  title: 'Invitaciones Digitales (SaaS)',
+  image: `${import.meta.env.BASE_URL}images/invitaciones.png`,
+  desc: 'Desarrollo de una plataforma SaaS para la creación y gestión de invitaciones digitales personalizadas con URLs únicas para cada evento. Implementé arquitectura Full Stack con Laravel, Inertia y React, incluyendo confirmación de asistencia (RSVP), panel administrativo, gestión de invitados, diseño responsive y una estructura preparada para comercializar invitaciones mediante subdominios y slugs personalizados.',
+  stack: [
+    'Laravel',
+    'React',
+    'Inertia',
+    'TypeScript',
+    'PHP',
+    'MySQL',
+    'Tailwind CSS',
+    'Vite',
+    'REST APIs',
+  ],
+  demo: 'https://TU-URL.com',
+  github: null,
+  featured: true,
+},
+
+{
+  title: 'Mañana Rica',
+  image: `${import.meta.env.BASE_URL}images/mananarica.png`,
+  desc: 'Diseño y desarrollo del sitio web para una marca de desayunos sorpresa, enfocado en conversión y experiencia de usuario. Implementé una interfaz moderna y responsive con selección de paquetes, extras personalizados, flujo de pedido mediante WhatsApp, optimización visual y una estructura preparada para futuras integraciones de pagos y administración de pedidos.',
+  stack: [
+    'React',
+    'JavaScript',
+    'Tailwind CSS',
+    'HTML5',
+    'CSS3',
+    'UX/UI',
+    'Responsive Design',
+  ],
+  demo: 'https://TU-URL-MANANARICA.com',
+  github: null,
+},
+
   {
   title: 'Plataformas Digitales Institucionales',
   image: `${import.meta.env.BASE_URL}images/liceo.png`,
@@ -135,14 +172,28 @@ export default function Projects() {
                 {p.stack.map(t => <span key={t} className="pill">{t}</span>)}
               </div>
               <div className="flex gap-4 mt-auto">
-                <a href={p.github} className="flex items-center gap-1.5 text-muted hover:text-text text-sm transition-colors">
-                  <GitFork size={15}/> Código
-                </a>
+                {p.github && (
+                    <a
+                      href={p.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 text-muted hover:text-text text-sm transition-colors"
+                    >
+                      <GitFork size={15} />
+                      Código
+                    </a>
+                  )}
                 {p.demo && (
-                  <a href={p.demo} className="flex items-center gap-1.5 text-accent hover:text-accent/70 text-sm transition-colors">
-                    <ExternalLink size={15}/> Demo
-                  </a>
-                )}
+  <a
+    href={p.demo}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-1.5 text-accent hover:text-accent/70 text-sm transition-colors"
+  >
+    <ExternalLink size={15} />
+    Demo
+  </a>
+)}
               </div>
             </div>
           ))}

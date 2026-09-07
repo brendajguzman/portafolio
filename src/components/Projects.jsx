@@ -24,6 +24,20 @@ const projects = [
 },
 
 {
+  title: 'Estudio Binario',
+  image: `${import.meta.env.BASE_URL}images/estudio_binario.png`,
+  desc: 'Fundación y desarrollo de un estudio especializado en soluciones web, productos digitales y diseño de experiencias enfocadas en negocios y emprendedores.',
+  stack: [
+    'Desarrollo',
+    'Landing Pages',
+    'E-Commerce',
+    'Desarrollo a medida',
+  ],
+  demo: 'https://estudiobinariomx.com/',
+  github: null,
+},
+
+{
   title: 'Invitaciones Digitales (SaaS)',
   image: `${import.meta.env.BASE_URL}images/invitaciones.png`,
   desc: 'Desarrollo de una plataforma SaaS para la creación y gestión de invitaciones digitales personalizadas con URLs únicas para cada evento. Implementé arquitectura Full Stack con Laravel, Inertia y React, incluyendo confirmación de asistencia (RSVP), panel administrativo, gestión de invitados, diseño responsive y una estructura preparada para comercializar invitaciones mediante subdominios y slugs personalizados.',

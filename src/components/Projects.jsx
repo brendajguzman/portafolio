@@ -45,7 +45,7 @@ const projects = [
 
 {
   title: 'Mañana Rica',
-  image: `${import.meta.env.BASE_URL}images/mananarica.png`,
+  image: `${import.meta.env.BASE_URL}images/manana_rica.png`,
   desc: 'Diseño y desarrollo del sitio web para una marca de desayunos sorpresa, enfocado en conversión y experiencia de usuario. Implementé una interfaz moderna y responsive con selección de paquetes, extras personalizados, flujo de pedido mediante WhatsApp, optimización visual y una estructura preparada para futuras integraciones de pagos y administración de pedidos.',
   stack: [
     'React',
